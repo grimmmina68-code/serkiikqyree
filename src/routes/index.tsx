@@ -236,9 +236,9 @@ function Index() {
             </div>
           </div>
           <div className="hcta rv">
-            <h3 className="hcta-title">KEIN WARTEN.<br /><em>ONLINE BUCHEN.</em></h3>
-            <p className="hcta-sub">Buche deinen Termin bequem online — direkt, schnell und ohne Wartezeit. Sofortbestätigung inklusive.</p>
-            <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer" style={{ width: "fit-content" }}>Jetzt buchen</a>
+            <h3 className="hcta-title">RUF UNS<br /><em>EINFACH AN.</em></h3>
+            <p className="hcta-sub">Vereinbare deinen Termin telefonisch — direkt, schnell und persönlich.</p>
+            <a href="tel:017670962134" className="btn-acc" style={{ width: "fit-content" }}>Jetzt anrufen</a>
             <a href="tel:017670962134" className="btn-ghost" style={{ width: "fit-content" }}>017670962134</a>
           </div>
         </div>
