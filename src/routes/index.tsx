@@ -121,7 +121,7 @@ function Index() {
           <li><a href="#bss-hours">Zeiten</a></li>
           <li><a href="#bss-contact">Kontakt</a></li>
         </ul>
-        <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="nav-cta" target="_blank" rel="noreferrer">Termin buchen</a>
+        <a href="tel:017670962134" className="nav-cta">Anrufen</a>
       </nav>
 
       <section id="bss-hero">
@@ -137,8 +137,8 @@ function Index() {
           <h1 className="hero-brand">BARBERSHOP <em>BY SERKI</em></h1>
           <div className="hero-divider"><span>Premium · Präzision · Stil</span></div>
           <div className="hero-btns">
-            <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer">Termin buchen</a>
-            <a href="tel:017670962134" className="btn-ghost">Anrufen</a>
+            <a href="tel:017670962134" className="btn-acc">Anrufen</a>
+            <a href="tel:017670962134" className="btn-ghost">017670962134</a>
           </div>
         </div>
 
@@ -236,9 +236,9 @@ function Index() {
             </div>
           </div>
           <div className="hcta rv">
-            <h3 className="hcta-title">KEIN WARTEN.<br /><em>ONLINE BUCHEN.</em></h3>
-            <p className="hcta-sub">Buche deinen Termin bequem online — direkt, schnell und ohne Wartezeit. Sofortbestätigung inklusive.</p>
-            <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer" style={{ width: "fit-content" }}>Jetzt buchen</a>
+            <h3 className="hcta-title">RUF UNS<br /><em>EINFACH AN.</em></h3>
+            <p className="hcta-sub">Vereinbare deinen Termin telefonisch — direkt, schnell und persönlich.</p>
+            <a href="tel:017670962134" className="btn-acc" style={{ width: "fit-content" }}>Jetzt anrufen</a>
             <a href="tel:017670962134" className="btn-ghost" style={{ width: "fit-content" }}>017670962134</a>
           </div>
         </div>
@@ -286,8 +286,8 @@ function Index() {
       <section id="bss-book">
         <div className="rv">
           <h2 className="book-big">BEREIT FÜR<br /><em>DEINEN LOOK?</em></h2>
-          <p className="book-sub">Online buchen · Keine Wartezeit · Sofortbestätigung</p>
-          <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer">Jetzt Termin buchen</a>
+          <p className="book-sub">Ruf uns an · Persönlich · Schnell</p>
+          <a href="tel:017670962134" className="btn-acc">Jetzt anrufen</a>
         </div>
       </section>
 
