@@ -286,8 +286,8 @@ function Index() {
       <section id="bss-book">
         <div className="rv">
           <h2 className="book-big">BEREIT FÜR<br /><em>DEINEN LOOK?</em></h2>
-          <p className="book-sub">Online buchen · Keine Wartezeit · Sofortbestätigung</p>
-          <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer">Jetzt Termin buchen</a>
+          <p className="book-sub">Ruf uns an · Persönlich · Schnell</p>
+          <a href="tel:017670962134" className="btn-acc">Jetzt anrufen</a>
         </div>
       </section>
 
