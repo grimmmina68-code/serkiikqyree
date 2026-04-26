@@ -138,7 +138,6 @@ function Index() {
           <div className="hero-divider"><span>Premium · Präzision · Stil</span></div>
           <div className="hero-btns">
             <a href="tel:017670962134" className="btn-acc">Anrufen</a>
-            <a href="tel:017670962134" className="btn-ghost">017670962134</a>
           </div>
         </div>
 
@@ -238,8 +237,7 @@ function Index() {
           <div className="hcta rv">
             <h3 className="hcta-title">RUF UNS<br /><em>EINFACH AN.</em></h3>
             <p className="hcta-sub">Vereinbare deinen Termin telefonisch — direkt, schnell und persönlich.</p>
-            <a href="tel:017670962134" className="btn-acc" style={{ width: "fit-content" }}>Jetzt anrufen</a>
-            <a href="tel:017670962134" className="btn-ghost" style={{ width: "fit-content" }}>017670962134</a>
+            <a href="tel:017670962134" className="btn-acc" style={{ width: "fit-content" }}>Anrufen</a>
           </div>
         </div>
       </section>
