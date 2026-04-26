@@ -121,7 +121,7 @@ function Index() {
           <li><a href="#bss-hours">Zeiten</a></li>
           <li><a href="#bss-contact">Kontakt</a></li>
         </ul>
-        <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="nav-cta" target="_blank" rel="noreferrer">Termin buchen</a>
+        <a href="tel:017670962134" className="nav-cta">Anrufen</a>
       </nav>
 
       <section id="bss-hero">
