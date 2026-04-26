@@ -185,8 +185,8 @@ html:has(.bss-root){scroll-behavior:smooth;}
 .hero-gradient{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse at 30% 50%,rgba(74,53,128,.5) 0%,transparent 55%),radial-gradient(ellipse at 70% 30%,rgba(124,92,191,.2) 0%,transparent 50%),radial-gradient(ellipse at 50% 80%,rgba(40,30,80,.4) 0%,transparent 60%),#080610;}
 .hero-text-back{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;pointer-events:none;}
 .big-text-back{font-family:'Bebas Neue',sans-serif;font-size:clamp(100px,22vw,260px);letter-spacing:-.02em;line-height:.85;text-align:center;color:rgba(255,255,255,0.06);user-select:none;white-space:nowrap;}
-.hero-photo{position:absolute;inset:0;z-index:2;display:flex;align-items:flex-start;justify-content:center;padding-top:16px;}
-.hero-photo img{height:78vh;width:auto;max-width:60vw;object-fit:cover;object-position:top;mask-image:linear-gradient(to top,transparent 0%,black 15%,black 85%,transparent 100%);-webkit-mask-image:linear-gradient(to top,transparent 0%,black 15%,black 85%,transparent 100%);filter:contrast(1.05) brightness(.9);}
+.hero-photo{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;padding-top:18vh;}
+.hero-photo img{height:70vh;width:auto;max-width:60vw;object-fit:cover;object-position:top;mask-image:linear-gradient(to top,transparent 0%,black 15%,black 85%,transparent 100%);-webkit-mask-image:linear-gradient(to top,transparent 0%,black 15%,black 85%,transparent 100%);filter:contrast(1.05) brightness(.9);}
 .hero-text-front{position:absolute;inset:0;z-index:3;display:flex;align-items:center;justify-content:center;pointer-events:none;}
 .big-text-front{font-family:'Bebas Neue',sans-serif;font-size:clamp(100px,22vw,260px);letter-spacing:-.02em;line-height:.85;text-align:center;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,0.15);user-select:none;white-space:nowrap;}
 .hero-center{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 20px;text-align:center;pointer-events:none;}
