@@ -137,8 +137,8 @@ function Index() {
           <h1 className="hero-brand">BARBERSHOP <em>BY SERKI</em></h1>
           <div className="hero-divider"><span>Premium · Präzision · Stil</span></div>
           <div className="hero-btns">
-            <a href="https://www.fresha.com/en-GB/lvp/barbershopserki" className="btn-acc" target="_blank" rel="noreferrer">Termin buchen</a>
-            <a href="tel:017670962134" className="btn-ghost">Anrufen</a>
+            <a href="tel:017670962134" className="btn-acc">Anrufen</a>
+            <a href="tel:017670962134" className="btn-ghost">017670962134</a>
           </div>
         </div>
 
