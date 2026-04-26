@@ -138,7 +138,6 @@ function Index() {
           <div className="hero-divider"><span>Premium · Präzision · Stil</span></div>
           <div className="hero-btns">
             <a href="tel:017670962134" className="btn-acc">Anrufen</a>
-            <a href="tel:017670962134" className="btn-ghost">017670962134</a>
           </div>
         </div>
 
