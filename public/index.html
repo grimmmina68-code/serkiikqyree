@@ -153,6 +153,9 @@ nav.scrolled{background:rgba(8,6,16,.96);border-bottom:1px solid rgba(124,92,191
 /* GALLERY */
 #gallery{padding:80px 48px;background:var(--bg2);}
 .gallery-head{text-align:center;margin-bottom:48px;}
+.gallery-video-bg{position:relative;max-width:1100px;height:clamp(220px,34vw,380px);margin:0 auto 4px;overflow:hidden;background:var(--bg3);}
+.gallery-video-bg video{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9) contrast(1.05) brightness(.85);}
+.gallery-video-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,6,16,.55),transparent 55%);pointer-events:none;}
 .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:280px 280px;gap:4px;max-width:1100px;margin:0 auto;}
 .g-item{overflow:hidden;position:relative;}
 .g-item:first-child{grid-row:span 2;}
@@ -250,7 +253,7 @@ footer{padding:32px 48px;border-top:1px solid rgba(124,92,191,.1);display:flex;a
 
   <!-- MIDDLE layer: photo -->
   <div class="hero-photo">
-    <img src="/mnt/user-data/uploads/7a2f2e8b-dfc9-478a-a461-d7b0dab9224f.jpg" alt="Barbershop By Serki Interior">
+    <img src="assets/hero.jpg" alt="Barbershop By Serki Interior">
   </div>
 
   <!-- FRONT layer: outline big text -->
@@ -308,12 +311,16 @@ footer{padding:32px 48px;border-top:1px solid rgba(124,92,191,.1);display:flex;a
     <span class="sec-tag">Unsere Arbeit</span>
     <h2 class="sec-title">GALERIE</h2>
   </div>
+  <div class="gallery-video-bg rv">
+    <video src="assets/bg-video.mp4" autoplay loop muted playsinline preload="metadata" poster="assets/hero.jpg"></video>
+    <div class="gallery-video-overlay"></div>
+  </div>
   <div class="gallery-grid">
-    <div class="g-item rv"><img src="/mnt/user-data/uploads/7a2f2e8b-dfc9-478a-a461-d7b0dab9224f.jpg" alt="Cut 1"></div>
-    <div class="g-item rv"><img src="/mnt/user-data/uploads/98ce3c89-8af8-40ba-b65b-e8162969d1c0.jpg" alt="Cut 2"></div>
-    <div class="g-item rv"><img src="/mnt/user-data/uploads/a0e3f1a6-99ea-4f4b-950a-ecda87f31c1f.jpg" alt="Cut 3"></div>
-    <div class="g-item rv"><img src="/mnt/user-data/uploads/a39fb87c-045c-4f1b-8676-a3ac5315bad1.jpg" alt="Cut 4"></div>
-    <div class="g-item rv"><img src="/mnt/user-data/uploads/ca58151b-1d48-4387-b1cd-7768c0d58ed6.jpg" alt="Cut 5"></div>
+    <div class="g-item rv"><img src="assets/g1.jpg" alt="Cut 1" loading="lazy"></div>
+    <div class="g-item rv"><img src="assets/g2.jpg" alt="Cut 2" loading="lazy"></div>
+    <div class="g-item rv"><img src="assets/g3.jpg" alt="Cut 3" loading="lazy"></div>
+    <div class="g-item rv"><img src="assets/g4.jpg" alt="Cut 4" loading="lazy"></div>
+    <div class="g-item rv"><img src="assets/g5.jpg" alt="Cut 5" loading="lazy"></div>
   </div>
 </section>
 
